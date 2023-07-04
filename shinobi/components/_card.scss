@@ -1,0 +1,33 @@
+@use 'sass:math';
+
+.card {
+    display: block;
+    padding: $base-padding;
+    border: $base-border-thickness solid #ddd;
+    box-shadow: $base-box-shadow;
+    margin: 20px;
+    max-width: 400px;
+    border-radius: math.div($base-border-radius, 4);
+    .card-title {
+        font-size: $base-font-size;
+        padding-bottom: $base-padding;
+        font-weight: bold;
+    }
+    .card-body {
+        font-size: $base-font-size;
+        a {
+            text-decoration: underline;
+        }
+    }
+}
+//@error "this is an error";
+@warn "this is a warning, beware of errors";
+@debug "Hello ninjas, this is a debug message !";
+@debug "10/3=" + math.div(10,3);
+@debug "Flooring 2.6=" + math.floor(2.6);
+@debug "Ceiling 2.6=" + math.ceil(2.6);
+@debug "Rounding 2.5=" + math.round(2.6);
+@debug "Rounding 2.4=" + math.round(2.4);
+@debug "max in=[1px, 20px, 15pxv, 12px] is " + math.max(1px, 20px, 15px, 12px);
+@debug "min in=[1px, 20px, 15pxv, 12px] is " + math.min(1px, 20px, 15px, 12px);
+

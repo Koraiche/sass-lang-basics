@@ -1,0 +1,24 @@
+{
+  "name": "sass-lang-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koraiche/sass-lang-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Koraiche/sass-lang-basics/issues"
+  },
+  "homepage": "https://github.com/Koraiche/sass-lang-basics#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.63.6"
+  }
+}

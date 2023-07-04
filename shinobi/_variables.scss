@@ -1,0 +1,17 @@
+$pinkyy: #e43bba;
+$primary: #326dee;
+$secondary: #1ac888;
+$error: #d32752;
+$info: #f6c31c;
+
+//colors palette
+$colors: (
+    "primary": $primary,
+    "secondary":  #1ac888,
+    "test": #f6c31c
+);
+@debug "Getting the value of primary from map : " + map-get($colors, "primary");
+@debug "Does the map have the value of purple ? : " + map-has-key($colors, "purple");
+@debug "Removing the value of test? : " ;
+@debug map-remove($colors, "test");
+@debug map-merge($colors, ("error": #d32752));

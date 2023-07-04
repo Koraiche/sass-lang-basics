@@ -1,0 +1,60 @@
+// variables and function
+@import 'variables';
+
+
+
+// base and layout
+@import 'base';
+$base-padding: 5px;
+$base-border-thickness: 2px;
+$base-box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+$base-font-size: 1.5em;
+$font-size-sm: $base-font-size * 0.75;
+$base-border-radius: 20px;
+//colors
+@import 'colors';
+
+// components (button, card, navbar)
+
+@import 'components/card';
+
+// utilities (margin, padding, opacity)
+
+
+
+
+* {
+    color: inherit;
+    margin: 0;
+}
+
+body {
+    font-family: Poppins;
+}
+
+a {
+    color: $pinkyy;
+}
+h1 {
+    a {
+      color: $error;
+    }
+
+}
+button {
+    color: white;
+    border: 0;
+    background-color: $primary;
+}
+
+.error {
+    color: $error;
+    border-color: $error;
+    border-style: solid;
+}
+
+.notification {
+    color: $secondary;
+    border-color: $secondary;
+    border-style: solid;
+}
